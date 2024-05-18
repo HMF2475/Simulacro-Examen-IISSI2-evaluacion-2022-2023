@@ -77,7 +77,11 @@ export default function CreateRestaurantScreen ({ navigation, route }) {
       }
     }
     fetchRestaurantCategories()
-  }, [route.params?.dirty])
+    if (route.params?.dirty) {
+      fetchRestaurantCategories()
+      navigation.setParams({ dirty: false })
+    }
+  }, [navigation, route.params?.dirty])
 
   useEffect(() => {
     (async () => {
