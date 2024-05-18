@@ -188,7 +188,7 @@ export default function CreateRestaurantScreen ({ navigation }) {
                 styles.button
               ]}>
             <View style={[{ flex: 1, flexDirection: 'row', justifyContent: 'center' }]}>
-              <MaterialCommunityIcons name='satellite-variant' color={'white'} size={20}/>
+              <MaterialCommunityIcons name='folder-plus-outline' color={'white'} size={20}/>
               <TextRegular textStyle={styles.text}>
                 Create new category
               </TextRegular>
