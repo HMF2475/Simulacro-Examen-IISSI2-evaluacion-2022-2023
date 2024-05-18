@@ -1,4 +1,4 @@
-import { RestaurantCategory } from '#root/src/models/models.js'
+import { RestaurantCategory } from '../../models/models.js'
 import { check } from 'express-validator'
 
 const checkDoesNotExistYet = async (value, { req }) => {

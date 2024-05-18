@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { MaterialCommunityIcons } from '@expo/vector-icons'
-import { Pressable, View } from 'react-native'
+import { Pressable, View, StyleSheet } from 'react-native'
 import { postRestaurantCategories } from '../../api/RestaurantEndpoints'
 import InputItem from '../../components/InputItem'
 import TextRegular from '../../components/TextRegular'
